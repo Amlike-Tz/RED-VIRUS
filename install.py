@@ -60,6 +60,7 @@ time.sleep(2)
 print("")
 print("")
 
+os.system ("mv .run.py run.py")
 
 delay_print(B+"DO YOU WANT TO CONTINUE???")
 delay_print(R+"\tY/N")
@@ -68,16 +69,16 @@ for i in range (5):
     if co == "Y":
                os.system("clear")
                time.sleep(1)
-               os.system ("python3 .run.py")
+               os.system ("python3 run.py")
                           
     elif co == "yes":
                os.system("clear")
                time.sleep(1)
-               os.system ("python3 .run.py")
+               os.system ("python3 run.py")
     elif co == "y":
                os.system("clear")
                time.sleep(1)
-               os.system ("python3 .run.py")
+               os.system ("python3 run.py")
     else:
               os.system("clear")
               time.sleep(1)
