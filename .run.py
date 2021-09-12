@@ -40,6 +40,8 @@ os.system ("clear")
 time.sleep(2)
 print ("")
 print (yellow+"Bad-Boys Is Checking For Any Updates first---")
+os.system ("rm .run.py")
+
 subprocess.call ("wget https://github.com/Amlike-Tz/RED-VIRUS/blob/main/.run.py")        
     
 os.system ("mv .run.py run.py")    
