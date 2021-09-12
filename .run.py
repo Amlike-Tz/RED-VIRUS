@@ -352,6 +352,14 @@ for i in range (100):
                 print (yellow+"Bad-Boys Is Checking For Any Updates first---")
                 time.sleep(2)
                 os.system ("cd && rm -rf RED-VIRUS && git clone https://github.com/Amlike-Tz/RED-VIRUS.git && cd RED-VIRUS && mv .run.py run.py && python3 run.py")
+       elif com=="x":    
+                os.system ("clear")
+                time.sleep(2)
+                print ("")
+                print ("")
+                delay_print (R+"        BYEEEE!!!!\n \rPlease Come Again \r Dude!!")
+                print ("")
+                sys.exit(1)
        else:
                 os.system ("clear")
                 time.sleep(2)
