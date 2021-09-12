@@ -39,6 +39,9 @@ def delay_print(s):
         sys.stdout.flush()
         time.sleep(0.06)
 
+os.system ("clear")
+time.sleep(2)
+
 #subprocess.call ('clear')
 #introduction
 
