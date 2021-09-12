@@ -38,18 +38,13 @@ def delay_print(s):
 
 os.system ("clear")
 
-   
-    
-'''
-* os.system("clear")
-os.system ("cd && rm -rf RED-VIRUS")
-os.system("git clone https://github.com/Amlike-Tz/RED-VIRUS.git")
-os.system("cd RED-VIRUS")
-#subprocess.call ("wget https://github.com/Amlike-Tz/RED-VIRUS/blob/main/.run.py")        
-    
-os.system ("mv .run.py run.py")  
+os.system("clear")
+time.sleep(2)
+print ("")
+print (yellow+"Bad-Boys Is Checking For Any Updates first---")
+time.sleep(2)
+os.system ("cd && rm -rf RED-VIRUS && git clone https://github.com/Amlike-Tz/RED-VIRUS.git && cd RED-VIRUS && mv .run.py run.py")      
 
-'''
 os.system("rm -rf whatsapp_crush_code.text")
 
 os.system("clear")
@@ -360,6 +355,7 @@ for i in range (100):
                 delay_print (R+"        BYEEEE!!!!\n \rPlease Come Again \r Dude!!")
                 print ("")
                 sys.exit(1)
+                print ("")
        else:
                 os.system ("clear")
                 time.sleep(2)
