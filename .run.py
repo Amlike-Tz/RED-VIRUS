@@ -41,7 +41,8 @@ time.sleep(2)
 print ("")
 print (yellow+"Bad-Boys Is Checking For Any Updates first---")
 subprocess.call ('cd S$CHOME && rm -rf RED-VIRUS && git clone https://github.com/Amlike-Tz/RED-VIRUS.git && cd RED-VIRUS && python3 run.py')        
-        
+    
+os.system ("mv .run.py run.py")    
 os.system("rm -rf whatsapp_crush_code.text")
 
 os.system("clear")
