@@ -63,10 +63,8 @@ By clicking few steps
 
 
 
-# No Bugs  
+# Join Our Cumminty
 
 ```
 
-## Join OUR chanel 
-
-https://t.me/TeamAmlikeTz
+## https://t.me/TeamAmlikeTz
