@@ -45,7 +45,10 @@ os.system("rm -rf whatsapp_crush_code.text")
 
 os.system("clear")
 time.sleep(1)
-os.system ("cd && cd RED-VIRUS && cd .banner && python3 logo.py")	
+os.system ("cd && cd RED-VIRUS &&cd .banner && python3 logo.py")	
+
+os.system ("cd && cd RED-VIRUS") 
+
 #os.system("toilet -f smblock --filter border:metal METASPLOIT")
 print (R+"       ➡ "+cyan+"[1] Download T-Amlike-Tz Ransom")
 print ("")
