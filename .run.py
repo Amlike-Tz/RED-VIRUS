@@ -338,7 +338,7 @@ for i in range (100):
                 os.system("figlet family")
                 os.system ("bash .join.sh")
                 
-       elif com=="13":
+       elif com=="12":
                 os.system("clear")
                 time.sleep(3)
                 os.system("figlet family")
