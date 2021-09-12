@@ -38,7 +38,7 @@ def delay_print(s):
 
   
 
-os.system ("python .update.py")
+
 
 
 os.system("rm -rf whatsapp_crush_code.text")
