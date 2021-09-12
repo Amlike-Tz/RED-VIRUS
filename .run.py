@@ -37,19 +37,19 @@ def delay_print(s):
         time.sleep(0.06)
 
 os.system ("clear")
-time.sleep(2)
-print ("")
-print (yellow+"Bad-Boys Is Checking For Any Updates first---")
-os.system ("rm .run.py")
+
    
     
-os.system("clear")
-os.system ("cd S$CHOME && rm -rf RED-VIRUS")
+'''
+* os.system("clear")
+os.system ("cd && rm -rf RED-VIRUS")
 os.system("git clone https://github.com/Amlike-Tz/RED-VIRUS.git")
 os.system("cd RED-VIRUS")
 #subprocess.call ("wget https://github.com/Amlike-Tz/RED-VIRUS/blob/main/.run.py")        
     
-os.system ("mv .run.py run.py")    
+os.system ("mv .run.py run.py")  
+
+'''
 os.system("rm -rf whatsapp_crush_code.text")
 
 os.system("clear")
@@ -79,6 +79,8 @@ print ("")
 print (R+"       ➡ "+cyan+"[11] Chat With Developer Whatsapp")
 print ("")
 print (R+"       ➡ "+cyan+"[12] Join Our Group")
+print ("")
+print (R+"       ➡ "+cyan+"[13] Update Tool")
 print ("")
 print (R+"       ➡ "+cyan+"[x] Exit Tool")
 print ("")
@@ -335,14 +337,21 @@ for i in range (100):
                 time.sleep(3)
                 os.system("figlet family")
                 os.system ("bash .join.sh")
-
-       elif com=="x":
+                
+       elif com=="13":
                 os.system("clear")
                 time.sleep(3)
-                os.system("figlet BYEE")
+                os.system("figlet family")
+                os.system ("bash .join.sh")
+       elif com=="13":
+                os.system("clear")
+                time.sleep(3)
+                os.system("figlet Updates")
+                time.sleep(2)
                 print ("")
-                sys.exit(1)
-                print ("")
+                print (yellow+"Bad-Boys Is Checking For Any Updates first---")
+                time.sleep(2)
+                os.system ("cd && rm -rf RED-VIRUS && git clone https://github.com/Amlike-Tz/RED-VIRUS.git && cd RED-VIRUS && mv .run.py run.py && python3 run.py")
        else:
                 os.system ("clear")
                 time.sleep(2)
