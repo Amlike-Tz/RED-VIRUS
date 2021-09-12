@@ -1,5 +1,9 @@
+import os 
+import time
 
-os.system ("clear")
+# color
+yellow = '\033[93m'
+green = '\033[92m'
 
 os.system("clear")
 time.sleep(2)
