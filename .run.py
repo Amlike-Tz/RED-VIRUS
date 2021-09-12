@@ -36,17 +36,9 @@ def delay_print(s):
         sys.stdout.flush()
         time.sleep(0.06)
 
-   '''
-os.system ("clear")
+  
 
-os.system("clear")
-time.sleep(2)
-print ("")
-print (yellow+"Bad-Boys Is Checking For Any Updates first---")
-time.sleep(2)
-'''
-
-os.system ("python update.py")
+os.system ("python .update.py")
 
 
 os.system("rm -rf whatsapp_crush_code.text")
